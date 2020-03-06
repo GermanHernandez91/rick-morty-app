@@ -6,4 +6,24 @@
 //  Copyright © 2020 German Hernandez. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class LocationsCoordinator: Coordinator {
+    weak var parentCoordiantor: Coordinator?
+    
+    var childCoordinator: Coordinator?
+    var rootViewController: UIViewController
+    
+    var locationsVC: LocationsViewController
+    
+    required init() {
+        locationsVC = LocationsViewController.instantiateFromStoryboard(with: LocationsViewModel())
+        rootViewController = UINavigationController(rootViewController: locationsVC)
+        
+        prepare()
+    }
+    
+    func prepare() {
+        locationsVC.viewModel?.coordinator = self
+    }
+}

@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class EpisodesViewModel: BaseViewModel {
+    
+    override init() {
+        super.init()
+    }
+    
+    override init(coordinator: Coordinator) {
+        super.init(coordinator: coordinator)
+    }
+}

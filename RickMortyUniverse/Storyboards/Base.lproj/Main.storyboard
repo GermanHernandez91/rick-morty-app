@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Characters View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CharactersViewController" id="BYZ-38-t0r" customClass="CharactersViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="138" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--Locations View Controller-->
         <scene sceneID="Tf7-l6-9FB">
             <objects>
-                <viewController id="3Zy-SP-cq6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LocationsViewController" id="3Zy-SP-cq6" customClass="LocationsViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMp-Hw-nsK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="891" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--Character Detail View Controller-->
         <scene sceneID="0nP-DQ-u8h">
             <objects>
-                <viewController id="Bu5-Io-TNg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CharacterDetailViewController" id="Bu5-Io-TNg" customClass="CharacterDetailViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LmF-sT-PGS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="138" y="844"/>
         </scene>
-        <!--View Controller-->
+        <!--Location Detail View Controller-->
         <scene sceneID="TDb-4O-YOp">
             <objects>
-                <viewController id="m5e-8U-IWZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LocationDetailViewController" id="m5e-8U-IWZ" customClass="LocationDetailViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gls-vZ-VvR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="890" y="844"/>
         </scene>
-        <!--View Controller-->
+        <!--Episode Detail View Controller-->
         <scene sceneID="WBS-Na-eCO">
             <objects>
-                <viewController id="Nst-xW-qmu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EpisodeDetailViewController" id="Nst-xW-qmu" customClass="EpisodeDetailViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tYZ-iR-2OR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,10 +142,10 @@
             </objects>
             <point key="canvasLocation" x="1664" y="844"/>
         </scene>
-        <!--View Controller-->
+        <!--Episodes View Controller-->
         <scene sceneID="q0E-Vy-CoM">
             <objects>
-                <viewController id="LDI-81-qkt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EpisodesViewController" id="LDI-81-qkt" customClass="EpisodesViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RrI-O9-mTA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,10 +169,10 @@
             </objects>
             <point key="canvasLocation" x="1664" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="e82-MF-NJu">
             <objects>
-                <viewController id="boJ-IC-Lso" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" id="boJ-IC-Lso" customClass="SettingsViewController" customModule="RickMortyUniverse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OHH-aQ-FE1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

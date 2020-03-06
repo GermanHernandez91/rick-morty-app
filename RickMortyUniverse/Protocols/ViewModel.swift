@@ -19,6 +19,12 @@ protocol ViewModelDelegate: class {
     func viewModelNeedUpdate()
 }
 
+extension ViewModelDelegate {
+    func viewModelDidUpdate() {}
+    func viewModelDidError(error: RMError) {}
+    func viewModelNeedUpdate() {}
+}
+
 class BaseViewModel: NSObject, ViewModel {
     weak var coordinator: Coordinator?
     weak var delegate: ViewModelDelegate?
