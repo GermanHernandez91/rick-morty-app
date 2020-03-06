@@ -43,6 +43,7 @@
 		7731C95724128E6300867EA7 /* LocationDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95624128E6300867EA7 /* LocationDetailCoordinator.swift */; };
 		7731C95924128E6D00867EA7 /* EpisodeDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95824128E6D00867EA7 /* EpisodeDetailCoordinator.swift */; };
 		7731C95B24128E7600867EA7 /* CharacterDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95A24128E7600867EA7 /* CharacterDetailCoordinator.swift */; };
+		7731C95E24128EE000867EA7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95D24128EE000867EA7 /* Errors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		7731C95624128E6300867EA7 /* LocationDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailCoordinator.swift; sourceTree = "<group>"; };
 		7731C95824128E6D00867EA7 /* EpisodeDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailCoordinator.swift; sourceTree = "<group>"; };
 		7731C95A24128E7600867EA7 /* CharacterDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailCoordinator.swift; sourceTree = "<group>"; };
+		7731C95D24128EE000867EA7 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				7731C91424128B5800867EA7 /* Services */,
 				7731C91324128B5200867EA7 /* Networking */,
 				7731C90F24128B2500867EA7 /* Storyboards */,
+				7731C95C24128ECC00867EA7 /* Utilities */,
 				7731C91024128B3200867EA7 /* Resources */,
 				7731C8ED241289FC00867EA7 /* Info.plist */,
 			);
@@ -364,6 +367,14 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		7731C95C24128ECC00867EA7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7731C95D24128EE000867EA7 /* Errors.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -499,6 +510,7 @@
 				7731C92124128D0300867EA7 /* CharactersViewModel.swift in Sources */,
 				7731C94424128DE400867EA7 /* Location.swift in Sources */,
 				7731C95724128E6300867EA7 /* LocationDetailCoordinator.swift in Sources */,
+				7731C95E24128EE000867EA7 /* Errors.swift in Sources */,
 				7731C8E0241289FA00867EA7 /* AppDelegate.swift in Sources */,
 				7731C92924128D3800867EA7 /* LocationsViewController.swift in Sources */,
 				7731C92724128D2E00867EA7 /* EpisodesViewModel.swift in Sources */,
