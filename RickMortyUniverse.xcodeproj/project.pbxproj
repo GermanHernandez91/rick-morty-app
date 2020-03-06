@@ -44,6 +44,9 @@
 		7731C95924128E6D00867EA7 /* EpisodeDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95824128E6D00867EA7 /* EpisodeDetailCoordinator.swift */; };
 		7731C95B24128E7600867EA7 /* CharacterDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95A24128E7600867EA7 /* CharacterDetailCoordinator.swift */; };
 		7731C95E24128EE000867EA7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95D24128EE000867EA7 /* Errors.swift */; };
+		7731C960241299AF00867EA7 /* RMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C95F241299AF00867EA7 /* RMNavigationController.swift */; };
+		7731C96224129BD500867EA7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C96124129BD500867EA7 /* Constants.swift */; };
+		7731C96524129CE400867EA7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7731C96724129CE400867EA7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +110,9 @@
 		7731C95824128E6D00867EA7 /* EpisodeDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailCoordinator.swift; sourceTree = "<group>"; };
 		7731C95A24128E7600867EA7 /* CharacterDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailCoordinator.swift; sourceTree = "<group>"; };
 		7731C95D24128EE000867EA7 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		7731C95F241299AF00867EA7 /* RMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMNavigationController.swift; sourceTree = "<group>"; };
+		7731C96124129BD500867EA7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7731C96624129CE400867EA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				7731C8E8241289FC00867EA7 /* Assets.xcassets */,
+				7731C96724129CE400867EA7 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -275,6 +282,7 @@
 		7731C91824128B6A00867EA7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7731C95F241299AF00867EA7 /* RMNavigationController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,6 +379,7 @@
 			isa = PBXGroup;
 			children = (
 				7731C95D24128EE000867EA7 /* Errors.swift */,
+				7731C96124129BD500867EA7 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -480,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7731C8EC241289FC00867EA7 /* LaunchScreen.storyboard in Resources */,
+				7731C96524129CE400867EA7 /* Localizable.strings in Resources */,
 				7731C8E9241289FC00867EA7 /* Assets.xcassets in Resources */,
 				7731C8E7241289FA00867EA7 /* Main.storyboard in Resources */,
 			);
@@ -507,6 +517,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7731C93C24128DB400867EA7 /* LocationDetailViewModel.swift in Sources */,
+				7731C96224129BD500867EA7 /* Constants.swift in Sources */,
 				7731C92124128D0300867EA7 /* CharactersViewModel.swift in Sources */,
 				7731C94424128DE400867EA7 /* Location.swift in Sources */,
 				7731C95724128E6300867EA7 /* LocationDetailCoordinator.swift in Sources */,
@@ -537,6 +548,7 @@
 				7731C95524128E5000867EA7 /* SettingsCoordinator.swift in Sources */,
 				7731C95B24128E7600867EA7 /* CharacterDetailCoordinator.swift in Sources */,
 				7731C93124128D7400867EA7 /* SettingsViewController.swift in Sources */,
+				7731C960241299AF00867EA7 /* RMNavigationController.swift in Sources */,
 				7731C94224128DDF00867EA7 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +599,14 @@
 				7731C8EB241289FC00867EA7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7731C96724129CE400867EA7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7731C96624129CE400867EA7 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
