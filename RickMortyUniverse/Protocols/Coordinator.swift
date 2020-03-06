@@ -41,7 +41,7 @@ extension Coordinator {
     }
     
     
-    func dismiss(_ animated: Bool = true, completion: (() -> Void)? = nil) {
+    func dismissInternal(_ animated: Bool = true, completion: (() -> Void)? = nil) {
         try? parentCoordiantor?.remove(self)
         parentCoordiantor = nil
         rootViewController.dismiss(animated: animated) {
