@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CharactersViewController.swift
 //  RickMortyUniverse
 //
 //  Created by German Hernandez on 06/03/2020.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CharactersViewController: UIViewController, Storyboarded {
+    
+    var viewModel: CharactersViewModel?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-
