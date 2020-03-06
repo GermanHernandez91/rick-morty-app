@@ -7,3 +7,28 @@
 //
 
 import Foundation
+
+protocol ViewModel: class {
+    var coordinator: Coordinator? { get set }
+    var delegate: ViewModelDelegate? { get set }
+}
+
+protocol ViewModelDelegate: class {
+    func viewModelDidUpdate()
+    func viewModelDidError(error: RMError)
+    func viewModelNeedUpdate()
+}
+
+class BaseViewModel: NSObject, ViewModel {
+    weak var coordinator: Coordinator?
+    weak var delegate: ViewModelDelegate?
+    
+    override init() {
+        super.init()
+    }
+    
+    init(coordinator: Coordinator) {
+        self.coordinator = coordinator
+        super.init()
+    }
+}

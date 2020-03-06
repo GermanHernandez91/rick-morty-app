@@ -6,4 +6,18 @@
 //  Copyright © 2020 German Hernandez. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+protocol ModeledViewController: UIViewController, ViewModelDelegate {
+    associatedtype AnyViewModel = ViewModel
+    var viewModel: AnyViewModel? { get set }
+    
+    func setAsDelegate(for viewModel: ViewModel?)
+}
+
+extension ModeledViewController {
+    
+    func setAsDelegate(for viewModel: ViewModel?) {
+        viewModel?.delegate = self
+    }
+}

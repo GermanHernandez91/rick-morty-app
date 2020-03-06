@@ -6,9 +6,13 @@
 //  Copyright © 2020 German Hernandez. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum CoordinatorError: Error {
     case childAlreadyExists
     case childTypeMistmatch
+}
+
+enum RMError: Error {
+    
 }
