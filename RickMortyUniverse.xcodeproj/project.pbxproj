@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7731C8E0241289FA00867EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C8DF241289FA00867EA7 /* AppDelegate.swift */; };
 		7731C8E2241289FA00867EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C8E1241289FA00867EA7 /* SceneDelegate.swift */; };
-		7731C8E4241289FA00867EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731C8E3241289FA00867EA7 /* ViewController.swift */; };
 		7731C8E7241289FA00867EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7731C8E5241289FA00867EA7 /* Main.storyboard */; };
 		7731C8E9241289FC00867EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7731C8E8241289FC00867EA7 /* Assets.xcassets */; };
 		7731C8EC241289FC00867EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7731C8EA241289FC00867EA7 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		7731C8DC241289FA00867EA7 /* RickMortyUniverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickMortyUniverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7731C8DF241289FA00867EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7731C8E1241289FA00867EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7731C8E3241289FA00867EA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7731C8E6241289FA00867EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7731C8E8241289FC00867EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7731C8EB241289FC00867EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,12 +97,16 @@
 		7731C8DE241289FA00867EA7 /* RickMortyUniverse */ = {
 			isa = PBXGroup;
 			children = (
-				7731C8DF241289FA00867EA7 /* AppDelegate.swift */,
-				7731C8E1241289FA00867EA7 /* SceneDelegate.swift */,
-				7731C8E3241289FA00867EA7 /* ViewController.swift */,
-				7731C8E5241289FA00867EA7 /* Main.storyboard */,
-				7731C8E8241289FC00867EA7 /* Assets.xcassets */,
-				7731C8EA241289FC00867EA7 /* LaunchScreen.storyboard */,
+				7731C91224128B4D00867EA7 /* App */,
+				7731C91824128B6A00867EA7 /* Views */,
+				7731C91724128B6500867EA7 /* Extensions */,
+				7731C91624128B6100867EA7 /* Protocols */,
+				7731C91524128B5D00867EA7 /* Models */,
+				7731C91124128B3B00867EA7 /* UI */,
+				7731C91424128B5800867EA7 /* Services */,
+				7731C91324128B5200867EA7 /* Networking */,
+				7731C90F24128B2500867EA7 /* Storyboards */,
+				7731C91024128B3200867EA7 /* Resources */,
 				7731C8ED241289FC00867EA7 /* Info.plist */,
 			);
 			path = RickMortyUniverse;
@@ -126,6 +128,81 @@
 				7731C903241289FC00867EA7 /* Info.plist */,
 			);
 			path = RickMortyUniverseUITests;
+			sourceTree = "<group>";
+		};
+		7731C90F24128B2500867EA7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7731C8E5241289FA00867EA7 /* Main.storyboard */,
+				7731C8EA241289FC00867EA7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7731C91024128B3200867EA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7731C8E8241289FC00867EA7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7731C91124128B3B00867EA7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7731C91224128B4D00867EA7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7731C8DF241289FA00867EA7 /* AppDelegate.swift */,
+				7731C8E1241289FA00867EA7 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7731C91324128B5200867EA7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7731C91424128B5800867EA7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7731C91524128B5D00867EA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7731C91624128B6100867EA7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7731C91724128B6500867EA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7731C91824128B6A00867EA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7731C8E4241289FA00867EA7 /* ViewController.swift in Sources */,
 				7731C8E0241289FA00867EA7 /* AppDelegate.swift in Sources */,
 				7731C8E2241289FA00867EA7 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +513,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXU4QPBL2H;
 				INFOPLIST_FILE = RickMortyUniverse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.germanhernandez.RickMortyUniverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXU4QPBL2H;
 				INFOPLIST_FILE = RickMortyUniverse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +540,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.germanhernandez.RickMortyUniverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
